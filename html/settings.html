@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online games | settings</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/settings.css">
+    <script type="module" defer src="../js/lang-script.js"></script>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!-- font-awesome -->
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <!-- sweet-alert2 -->
+    <script defer src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.xyz/npm/sweetalert2@11"></script>
+      <!-- sweet-alert2 themes -->
+        <link href="https://cdn.jsdelivr.xyz/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+        <script defer src="https://cdn.jsdelivr.xyz/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+      <!-- sweet-alert2 themes -->
+    <!-- sweet-alert2 -->
+  </head>
+  <body>
+    <aside>
+      <div class="control">
+        <a aria-label="link to home" class="btn btn-success" href="../index.html">
+          <i class="fa-solid fa-house"></i>
+        </a>
+        <a aria-label="constrol link" class="btn btn-success" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+          <i class="fa-solid fa-bars"></i>
+        </a>
+      </div>
+      <div class="collapse show" id="collapseExample">
+        <div id="menu" class="menu">
+          <a href="settings.html" data-i18n="mainSettings">main settings</a>
+        </div>
+      </div>
+    </aside>
+    <main>
+      <div class="container">
+        <h1>Settings</h1>
+        <div class="option option1">
+          <label for="lang-selctor" data-i18n="language">select language:</label>
+          <select name="lang" id="lang-selctor">
+            <option value="en">english</option>
+            <option value="ar">العربية</option>
+          </select>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

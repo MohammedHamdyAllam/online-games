@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online games | x & o</title>
+    <link rel="stylesheet" href="../css/x&o.css">
+    <script defer src="../js/x&o.js"></script>
+    <script type="module" defer src="../js/lang-script.js"></script>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!-- font-awesome -->
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+</head>
+<body>
+  <div class="icons">
+    <a class="btn" href="../index.html">
+      <i class="fa-solid fa-house"></i>
+    </a>
+    <a class="btn" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+      <i class="fa-solid fa-bars"></i>
+    </a>
+  </div>
+  <div class="collapse show" id="collapseExample">
+    <aside id="settings">
+      <p data-i18n="namesWord">names:</p>
+      <input id="x-player" type="text" placeholder="x player name">
+      <input id="o-player" type="text" placeholder="o player name">
+      <button id="start-button" class="start-button" data-i18n="playText">play</button>
+    </aside>
+  </div>
+    <main>
+        <div class="courter">
+          <!-- adwsa -->
+        </div>
+        <div class="game">
+            <div id="information-of-game" class="information-of-game"></div>
+            <div class="container-of-game">
+                <div id="square1" class="x-o-square square1"></div>
+                <div id="square2" class="x-o-square square2"></div>
+                <div id="square3" class="x-o-square square3"></div>
+                <div id="square4" class="x-o-square square4"></div>
+                <div id="square5" class="x-o-square square5"></div>
+                <div id="square6" class="x-o-square square6"></div>
+                <div id="square7" class="x-o-square square7"></div>
+                <div id="square8" class="x-o-square square8"></div>
+                <div id="square9" class="x-o-square square9"></div>
+            </div>
+            <button id="reset" class="reset">reset</button>
+        </div>
+    </main>
+</body>
+</html>

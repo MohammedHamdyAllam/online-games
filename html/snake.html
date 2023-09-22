@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>online games | Snake Game</title>
+      <link rel="stylesheet" href="../css/snake.css">
+      <script defer src="../js/snake.js"></script>
+      <!-- font-awesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+      <!-- font-awesome -->
+      <!-- bootstrap -->
+      <link href="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+      <!-- bootstrap -->
+      <!-- sweet-alert2 -->
+      <script defer src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      <script defer src="https://cdn.jsdelivr.xyz/npm/sweetalert2@11"></script>
+        <!-- sweet-alert2 themes -->
+          <link href="https://cdn.jsdelivr.xyz/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+          <script defer src="https://cdn.jsdelivr.xyz/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+        <!-- sweet-alert2 themes -->
+      <!-- sweet-alert2 -->
+    </head>
+  <body>
+    <aside>
+      <div class="control">
+        <a aria-label="link to home" class="btn btn-success" href="../index.html">
+          <i class="fa-solid fa-house"></i>
+        </a>
+        <a aria-label="constrol link" class="btn btn-success" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+          <i class="fa-solid fa-bars"></i>
+        </a>
+      </div>
+      <div class="collapse show" id="collapseExample">
+        <div id="settings" class="settings">
+          <span>Settings</span>
+          <button id="play-btn" class="btn btn-success play-btn">play</button>
+        </div>
+      </div>
+    </aside>
+    <main>
+      <div class="game">
+        <div class="game-details">
+          <span>score:</span>
+          <span>high score:</span>
+        </div>
+        <div id="game-board" class="game-board">
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
